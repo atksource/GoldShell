@@ -19,11 +19,8 @@ public class Driver {
 			workingArray.add(nextDouble);
 			currentValue = nextDouble;
 		}
-		
 		System.out.println(workingArray);
 		System.out.println("Summation of Array:  " + SimpleStats.round(SimpleStats.sum(workingArray)));
 		System.out.println("Average of Array:  " + SimpleStats.round(SimpleStats.average(workingArray)));
-
 	}
-
 }

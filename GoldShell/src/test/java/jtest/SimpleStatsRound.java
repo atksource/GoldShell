@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import service.SimpleStats;
 
-public class RoundTest {
+public class SimpleStatsRound {
 
 	@Test
 	public void test() {
@@ -18,14 +18,5 @@ public class RoundTest {
 		assertEquals(expected, output, variance);
 		
 	}
-	// Test for input value
-//	@Test
-//	public void test(double input) {
-//		double output = SimpleStats.round(input);
-//		double expected = 1.1111;
-//		double variance = 0.000001;
-//		System.out.println("Expected: " + expected + ", Output: " + output);
-//		assertEquals(expected, output, variance);
-//		
-//	}
+
 }

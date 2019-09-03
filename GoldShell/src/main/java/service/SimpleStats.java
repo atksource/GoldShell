@@ -7,7 +7,6 @@ public class SimpleStats {
 	
 	public SimpleStats() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	public static double sum(ArrayList<Double> workingList) {
